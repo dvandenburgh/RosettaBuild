@@ -2,6 +2,8 @@ RosettaBuild
 ============
 #Android Build Environment:
 
+####This guide will help you set up an Ubuntu 14.04 to build Android
+
 ####Install Oracle:
 ####Open terminal (CTRL + ALT + T)
 
