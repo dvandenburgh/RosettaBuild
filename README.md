@@ -75,7 +75,7 @@ export PATH=${PATH}:~/bin
 ```
 ####Find your ~/.profile file and add this at the bottom of the file (execute from sudo with your chosen text editor):
 ```
-PATH="$HOME/android-sdk/tools:$HOME/android-sdk/platform-tools:$PATH"
+PATH="$HOME/android-sdks/tools:$HOME/android-sdks/platform-tools:$PATH"
 ```
 ##done.
 
