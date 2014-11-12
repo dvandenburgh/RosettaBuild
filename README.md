@@ -118,10 +118,7 @@ $ sudo service udev restart
 ####Open terminal (CTRL + ALT + T)
 ####Then execute the following commands in terminal one by one:
 ```
-$ mkdir ~/bin
-$ PATH=~/bin:$PATH
-$ curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
-$ chmod a+x ~/bin/repo
+$ mkdir ~/bin && curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo && chmod a+x ~/bin/repo
 ```
 ####done.
 
