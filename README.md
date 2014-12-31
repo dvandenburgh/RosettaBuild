@@ -68,7 +68,6 @@ PATH="$HOME/android-sdks/tools:$HOME/android-sdks/platform-tools:$PATH"
 $ sudo apt install bison python git-all gcc-arm-linux-androideabi gcc-i686-linux-android android-copyright abootimg android-headers android-src-vendor android-tools-fsutils android-tools-adbd bzip2 curl dpkg-dev flex g++-multilib git git-review gnupg gperf lib32bz2-1.0 lib32bz2-dev lib32ncurses5-dev lib32readline-gplv2-dev lib32z1-dev libbz2-1.0 libbz2-dev libc6-dev libghc-bzlib-dev libgl1-mesa-dev libgl1-mesa-glx:i386 libncurses5-dev libreadline6-dev libreadline6-dev:i386 libx11-dev:i386 libxml2-utils lzop mingw32 pngcrush python-markdown schedtool squashfs-tools tofrodos x11proto-core-dev xsltproc zip zlib1g-dev zlib1g-dev:i386 
 ```
 
-```
 ###Create a symbolic link of libGL.so.1:
 ```
 $ sudo ln -s /usr/lib/i386-linux-gnu/mesa/libGL.so.1 /usr/lib/i386-linux-gnu/libGL.so
@@ -90,24 +89,3 @@ $ sudo service udev restart
 
 ###Recommended to reboot your computer now. 
 
-####**(Optional)**
-
-####**Installing and setting up ccache**
-####Open terminal (CTRL + ALT + T)
-####Then execute the following commands in terminal one by one:
-```
-$ sudo apt install ccache
-```
-####cd to 
-```
-~/prebuilts/misc/linux-86/ccache
-```
-####set your ccache 
-```
-$ ccache -M 75G 
-```
-####you can set yours to whatever you want but it is recommended to use atleast 65 gigs
-####Lastly add ccache to your export at the end of your ~/.bashrc file
-```
-export USE_CCACHE=1
-```
