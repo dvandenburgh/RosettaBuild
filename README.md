@@ -46,7 +46,9 @@ $ PATH=~/bin:$PATH
 $ curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 $ chmod a+x ~/bin/repo
 ```
-####done.
+###done.
+
+####Find your ~/.bashrc file in your home directory and add this at the bottom of the file (execute from sudo with your chosen text editor):
 ```
 # Android tools
 export PATH=${PATH}:~/android-sdks/tools
