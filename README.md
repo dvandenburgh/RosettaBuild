@@ -72,17 +72,17 @@ $ make
 $ sudo make install
 $ sudo ln -s /usr/local/python2.7/bin/python /usr/bin/python2.7
 ```
+####Add to .bashrc
+```
+# Python
+export PATH=/usr/bin:$PATH
+```
+
 ####OPTIONAL to set up your Android SDK easily and also download Android Studio
 ```
 $ sudo apt-add-repository ppa:paolorotolo/android-studio; 
 $ sudo apt update
 $ sudo apt install android-studio
-```
-
-####Add to .bashrc
-```
-# Python
-export PATH=/usr/bin:$PATH
 ```
 
 ####Add SDK to .bashrc
