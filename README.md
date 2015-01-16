@@ -6,8 +6,6 @@ RosettaBuild
 
 ####Install OpenSSL, for Python:
 ```
-
-$ sudo apt-get install libssl1.0.0=1.0.1-4ubuntu5.3
 $ sudo apt-get install libssl-dev
 ```
 
@@ -49,28 +47,9 @@ $ sudo ln -s /usr/lib/i386-linux-gnu/mesa/libGL.so.1 /usr/lib/i386-linux-gnu/lib
 ```
 $ sudo curl --create-dirs -L -o /etc/udev/rules.d/51-android.rules -O -L https://raw.githubusercontent.com/snowdream/51-android/master/51-android.rules; sudo chmod a+r /etc/udev/rules.d/51-android.rules; sudo service udev restart
 ```
-####Setup Java
+####Setup Java (OpenJDK 7 for Lollipop. If building for versions prior to Lollipop install Oracle JDK 6)
 ```
 $ sudo apt install openjdk-7-jdk 
-```
-####Java PATHs open .bashrc in text editor
-```
-#Java
-export JAVA_HOME=/usr/bin/java
-export PATH=$PATH:$JAVA_HOME/bin
-```
-####Install python
-
--> For 2.7 you need to explicitly enable SSL after running the ./configure script and before running make: 
-```
-$ sudo apt-get install build-essential gcc
-$ wget http://www.python.org/ftp/python/2.7.6/Python-2.7.6.tgz
-$ tar -xvzf Python-2.7.6.tgz
-$ cd Python-2.7.6
-$ ./configure --prefix=/usr/local/python2.7
-$ make
-$ sudo make install
-$ sudo ln -s /usr/local/python2.7/bin/python /usr/bin/python2.7
 ```
 ####Add to .bashrc
 ```
