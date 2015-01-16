@@ -7,8 +7,8 @@ RosettaBuild
 # Install OpenSSL, for Python:
 ```
 
-sudo apt-get install libssl1.0.0=1.0.1-4ubuntu5.3
-sudo apt-get install libssl-dev
+$ sudo apt-get install libssl1.0.0=1.0.1-4ubuntu5.3
+$ sudo apt-get install libssl-dev
 ```
 
 # Build Tools
