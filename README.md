@@ -1,10 +1,10 @@
 RosettaBuild
 ============
-#Android Build Environment:
+####Android Build Environment:
 
-####This guide will help you set up an Ubuntu 14.04 machine to build Android
+#This guide will help you set up an Ubuntu 14.04 machine to build Android
 
-# Install OpenSSL, for Python:
+#Install OpenSSL, for Python:
 ```
 
 $ sudo apt-get install libssl1.0.0=1.0.1-4ubuntu5.3
@@ -39,7 +39,10 @@ $ sudo aptitude install git-core gnupg flex bison gperf build-essential \
   lib32readline5 lib32readline6 libreadline-dev libreadline6-dev:i386 \
   libreadline6:i386 bzip2 libbz2-dev libbz2-1.0 libghc-bzlib-dev lib32bz2-dev \
   libsdl1.2-dev libesd0-dev squashfs-tools pngcrush schedtool libwxgtk2.6-dev
+```
 
+When that's done installing enter 
+```
 $ sudo ln -s /usr/lib/i386-linux-gnu/mesa/libGL.so.1 /usr/lib/i386-linux-gnu/libGL.so
 ```
 # Configure USB (Android 51 Rules)
