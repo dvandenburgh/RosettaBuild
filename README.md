@@ -4,7 +4,6 @@ RosettaBuild
 
 ####This guide will help you set up an Ubuntu 14.10 build Android 
 
-```
 ####Build Tools
 ```
 
