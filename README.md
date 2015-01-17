@@ -16,7 +16,7 @@ $ sudo aptitude install  sudo apt install bison build-essential curl flex git gn
 ```
 ####Android debian packages
 ```
-sudo apt install android androidsdk-uiautomatorviewer android-copyright android-src-vendor android-emulator android-tools-adb android-headers android-tools-adbd androidsdk-ddms  android-tools-fastboot androidsdk-hierarchyviewer android-tools-fsutils androidsdk-traceview
+$ sudo apt install android androidsdk-uiautomatorviewer android-copyright android-src-vendor android-emulator android-tools-adb android-headers android-tools-adbd androidsdk-ddms  android-tools-fastboot androidsdk-hierarchyviewer android-tools-fsutils androidsdk-traceview
 ```
 ####When that's done installing enter 
 ```
