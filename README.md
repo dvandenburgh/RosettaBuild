@@ -26,12 +26,7 @@ $ sudo ln -s /usr/lib/i386-linux-gnu/mesa/libGL.so.1 /usr/lib/i386-linux-gnu/lib
 ```
 $ sudo apt install openjdk-7-jdk 
 ```
-####Add to .bashrc
-```
-# Python
-export PATH=/usr/bin:$PATH
-```
-####OPTIONAL to set up your Android SDK easily and also download Android Studio
+####To set up your Android SDK easily and also download Android Studio
 ```
 $ sudo apt-add-repository ppa:paolorotolo/android-studio; 
 $ sudo apt update
@@ -43,20 +38,4 @@ $ sudo apt install android-studio
 ```
 https://dl-ssl.google.com/android/eclipse/
 ```
-####Add SDK to .bashrc (from Android Studio it will be installed as I have it. If you did it through Eclipse the defaultis ~/android-sdks)
-```
-#Android SDK 
-export PATH=${PATH}:~/Android/Sdk/tools
-export PATH=${PATH}:~/Android/Sdk/platform-tools
-export PATH=${PATH}:~/bin
-```
-Add PATH to .profile:
-```
-$ PATH="$HOME/Android/Sdk/tools:$HOME/Android/Sdk/platform-tools:$PATH"
-```
-####Configure USB (Android 51 Rules)
-```
-$ sudo curl --create-dirs -L -o /etc/udev/rules.d/51-android.rules -O -L https://raw.githubusercontent.com/snowdream/51-android/master/51-android.rules; sudo chmod a+r /etc/udev/rules.d/51-android.rules; sudo service udev restart
-```
-
 #Reboot.
