@@ -16,7 +16,7 @@ $ sudo aptitude install bison build-essential curl flex git gnupg gperf libesd0-
 ```
 ####Android debian packages
 ```
-$ sudo apt install android androidsdk-uiautomatorviewer android-copyright android-src-vendor android-emulator android-tools-adb android-headers android-tools-adbd androidsdk-ddms  android-tools-fastboot androidsdk-hierarchyviewer android-tools-fsutils androidsdk-traceview
+$ sudo apt install phablet-tools androidsdk-uiautomatorviewer android-copyright android-src-vendor android-emulator android-tools-adb android-headers android-tools-adbd androidsdk-ddms  android-tools-fastboot androidsdk-hierarchyviewer android-tools-fsutils androidsdk-traceview
 ```
 ####When that's done installing enter 
 ```
@@ -58,8 +58,5 @@ $ PATH="$HOME/Android/Sdk/tools:$HOME/Android/Sdk/platform-tools:$PATH"
 ```
 $ sudo curl --create-dirs -L -o /etc/udev/rules.d/51-android.rules -O -L https://raw.githubusercontent.com/snowdream/51-android/master/51-android.rules; sudo chmod a+r /etc/udev/rules.d/51-android.rules; sudo service udev restart
 ```
-####Install the Repo:
-```
-$ mkdir ~/bin; PATH=~/bin:$PATH; curl https://dl-ssl.google.com/dl/googlesource/git-repo/repo > ~/bin/repo; chmod a+x ~/bin/repo
-```
+
 #Reboot.
