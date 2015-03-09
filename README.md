@@ -16,6 +16,8 @@ $ sudo aptitude install bison build-essential curl flex git gnupg gperf libesd0-
 ```
 ####Android debian packages
 ```
+$ sudo add-apt-repository ppa:phablet-team/tools 
+$ sudo apt-get update
 $ sudo apt install phablet-tools android androidsdk-uiautomatorviewer android-copyright android-src-vendor android-emulator android-tools-adb android-headers android-tools-adbd androidsdk-ddms  android-tools-fastboot androidsdk-hierarchyviewer android-tools-fsutils androidsdk-traceview
 ```
 ####When that's done installing enter 
@@ -32,6 +34,8 @@ $ sudo apt-add-repository ppa:paolorotolo/android-studio;
 $ sudo apt update
 $ sudo apt install android-studio
 ```
+##### After the install process you with have to execute Android Studio to install the latest SDK sources and also the proper build tools.
+######Google's repo tool isn't necessary to install with the phablet-tools meta package it is already included. 
 ####Or install through Eclipse
 #####Open Eclipse goto Help/Install new Software
 #####Click add:
