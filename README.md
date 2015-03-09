@@ -28,7 +28,7 @@ $ sudo ln -s /usr/lib/i386-linux-gnu/mesa/libGL.so.1 /usr/lib/i386-linux-gnu/lib
 ```
 $ sudo apt install openjdk-7-jdk 
 ```
-#####*For building Android prior to Lollipop you will need the Oracle SDK
+##### **For building Android prior to Lollipop you will need the Oracle JDK**
 ```
 $ sudo add-apt-repository ppa:webupd8team/java 
 $ sudo apt-get update
