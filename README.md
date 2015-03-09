@@ -46,7 +46,7 @@ $ sudo apt install android-studio
 ```
 ##### After the install process you with have to execute Android Studio to install the latest SDK sources and also the proper build tools. If you are building for Kitkat, you will need to open your SDK and download the proper files.
 
-######Google's repo tool isn't necessary to install with the phablet-tools meta package it is already included. 
+######Google's repo tool isn't necessary to install with the phablet-tools meta package it is already included. That also includes no editing of your ~/.bashrc file.  
 
 ####Or install your SDK through Eclipse (personally I don't recommend this)
 #####Open Eclipse goto Help/Install new Software
