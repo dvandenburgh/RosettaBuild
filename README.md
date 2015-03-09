@@ -28,15 +28,23 @@ $ sudo ln -s /usr/lib/i386-linux-gnu/mesa/libGL.so.1 /usr/lib/i386-linux-gnu/lib
 ```
 $ sudo apt install openjdk-7-jdk 
 ```
+#####*For building Android prior to Lollipop you will need the Oracle SDK
+```
+$ sudo add-apt-repository ppa:webupd8team/java 
+$ sudo apt-get update
+$ sudo apt install oracle-java6-installer oracle-java6-set-default
+```
 ####To set up your Android SDK easily and also download Android Studio
 ```
 $ sudo apt-add-repository ppa:paolorotolo/android-studio; 
 $ sudo apt update
 $ sudo apt install android-studio
 ```
-##### After the install process you with have to execute Android Studio to install the latest SDK sources and also the proper build tools.
+##### After the install process you with have to execute Android Studio to install the latest SDK sources and also the proper build tools. If you are building for Kitkat, you will need to open your SDK and download the proper files.
+
 ######Google's repo tool isn't necessary to install with the phablet-tools meta package it is already included. 
-####Or install through Eclipse
+
+####Or install your SDK through Eclipse (personally I don't recommend this)
 #####Open Eclipse goto Help/Install new Software
 #####Click add:
 ```
