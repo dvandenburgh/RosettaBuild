@@ -42,20 +42,20 @@ $ sudo service udev restart
 ```
 $ sudo ln -s /usr/lib/i386-linux-gnu/mesa/libGL.so.1 /usr/lib/i386-linux-gnu/libGL.so
 ```
-####To set up your Android SDK easily and also download Android Studio
+####Set up your Android SDK 
 ```
-$ sudo apt-add-repository ppa:paolorotolo/android-studio; 
-$ sudo apt update
-$ sudo apt install android-studio
+$ wget http://dl.google.com/android/android-sdk_r24.1.2-linux.tgz
+$ tar -xvzf android-sdk_r24.1.2-linux.tgz
+$ cd ~/android-sdk/tools
+$./andoid sdk
 ```
-##### After the install process you with have to execute Android Studio to install the latest SDK sources and also the proper build tools. If you are building for Kitkat, you will need to open your SDK and download the proper files.
-
+### Now install any packages you still need from SDK
 ######Google's repo tool 
 ```
 $ mkdir ~/bin; PATH=~/bin:$PATH; curl https://dl-ssl.google.com/dl/googlesource/git-repo/repo > ~/bin/repo; chmod a+x ~/bin/repo; export PATH=~/bin:$PATH
 
 ```
-### Add the $PATH to your ~/.bashrc file with your chosen text editor
+### Add the $PATH to your ~/.bashrc file with your chosen text editor (I have the android-sdk directory in my home folder)
 ```
 # Android tools
 $ export PATH=${PATH}:~/android-sdk/tools
