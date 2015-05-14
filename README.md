@@ -38,7 +38,8 @@ sudo ln -s /usr/lib/i386-linux-gnu/mesa/libGL.so.1 /usr/lib/i386-linux-gnu/libGL
 ```
 ####Set up your Android SDK 
 ```
-wget http://dl.google.com/android/android-sdk_r24.1.2-linux.tgz (or current https://developer.android.com/sdk/index.html ) 
+wget http://dl.google.com/android/android-sdk_r24.1.2-linux.tgz 
+*** or current https://developer.android.com/sdk/index.html ***
 tar -xvzf android-sdk_r24.1.2-linux.tgz
 cd ~/android-sdk/tools
 ./andoid sdk
@@ -57,7 +58,7 @@ echo "export PATH=~/bin:$PATH" >> ~/.bashrc
 ```
 sudo apt-get install ccache
 cd ~/prebuilts/misc/linux-86/ccache;
-ccache -M 50G (sets ccache to 50G you can use however much you wish
+ccache -M 50G *** (sets ccache to 50G you can use however much you wish)
 echo "export USE_CCACHE=1" >> ~/.bashrc
 ```
 ### OPTIONAL install Android Studio
