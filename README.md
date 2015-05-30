@@ -41,7 +41,7 @@ sudo ln -s /usr/lib/i386-linux-gnu/mesa/libGL.so.1 /usr/lib/i386-linux-gnu/libGL
 wget http://dl.google.com/android/android-sdk_r24.1.2-linux.tgz 
 *** or current https://developer.android.com/sdk/index.html ***
 tar -xvzf android-sdk_r24.1.2-linux.tgz
-cd ~/android-sdk/tools
+cd ~/android-sdk-linux/tools
 ./andoid sdk
 ```
 ### Now install any packages you still need from SDK
