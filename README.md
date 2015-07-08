@@ -51,6 +51,7 @@ mkdir ~/bin;
 PATH=~/bin:$PATH; 
 curl https://dl-ssl.google.com/dl/googlesource/git-repo/repo > ~/bin/repo
 chmod a+x ~/bin/repo
+source ~/.bashrc
 echo "export PATH=~/bin:$PATH" >> ~/.bashrc
 
 ```
