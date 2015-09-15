@@ -16,6 +16,7 @@ $ sudo apt install openjdk-7-jdk
 ```
 $ sudo apt-get install bison g++-multilib git gperf libxml2-utils make python-networkx zlib1g-dev:i386 zip
 ```
+#####and some more since then
 ```
 $ sudo apt-get install build-essential curl flex git gnupg gperf libesd0-dev liblz4-tool libncurses5-dev libsdl1.2-dev libwxgtk2.8-dev libxml2 libxml2-utils lzop pngcrush schedtool squashfs-tools xsltproc zip zlib1g-dev g++-multilib lib32ncurses5-dev lib32readline-gplv2-dev lib32z1-dev androidsdk-uiautomatorviewer android-copyright android-src-vendor android-emulator android-tools-adb android-headers android-tools-adbd androidsdk-ddms  android-tools-fastboot androidsdk-hierarchyviewer android-tools-fsutils androidsdk-traceview gcc-arm-linux-androideabi gcc-i686-linux-android android-copyright abootimg android-headers android-src-vendor android-tools-fsutils android-tools-adbd aapt gradle; 
 ```
@@ -49,7 +50,7 @@ $ PATH=~/bin:$PATH
 $ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 $ chmod a+x ~/bin/repo
 $ source ~/.bashrc
-$echo "export PATH=~/bin:$PATH" >> ~/.bashrc
+$ echo "export PATH=~/bin:$PATH" >> ~/.bashrc
 
 ```
 ### *OPTIONAL* set up ccache 
