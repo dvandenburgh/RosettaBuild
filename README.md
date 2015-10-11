@@ -36,7 +36,7 @@ $ sudo service udev restart
 ```
 ####Set up your Android SDK 
 ```
-$ wget http://dl.google.com/android/android-sdk_r24.3.4-linux.tgz 
+$ wget http://dl.google.com/android/android-sdk_r24.3.4-linux.tgz
 *** or current https://developer.android.com/sdk/index.html ***
 $ tar -xvzf android-sdk_r24.1.2-linux.tgz
 $ cd ~/android-sdk-linux/tools
@@ -59,9 +59,9 @@ $ sudo apt-get install ccache
 $ echo "export USE_CCACHE=1" >> ~/.bashrc
 ```
 ### OPTIONAL install Android Studio 
-(Link is good as of 9/16 if not goto https://developer.android.com/sdk/index.html#Other download Android Studio for Linux)
+(Link is good as of 10/10 if not goto https://developer.android.com/sdk/index.html#Other download Android Studio for Linux)
 ```
-$ wget https://dl.google.com/dl/android/studio/ide-zips/1.3.2.0/android-studio-ide-141.2178183-linux.zip
+$ wget https://dl.google.com/dl/android/studio/ide-zips/1.4.0.10/android-studio-ide-141.2288178-linux.zip
 $ unzip android-studio-ide-141.2178183-linux.zip
 $ cd android-studio/bin
 $ ./studio.sh
