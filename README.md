@@ -10,7 +10,7 @@ $ sudo apt purge openjdk-\* icedtea-\* icedtea6-\* oracle*
 ```
 Installing the JDK
 ```
-$ sudo apt install openjdk-7-jdk 
+$ sudo apt install openjdk-8-jdk 
 ```
 ####Google's packagaes since Ubuntu 14.04
 ```
