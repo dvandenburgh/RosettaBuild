@@ -1,7 +1,7 @@
 RosettaBuild
 ============
 ####Android Build Environment:
-####This guide will help you set up an Ubuntu 15.04/15.10 to build Android
+####This guide will help you set up an Ubuntu 15.10/16.04 to build Android
 ##### Open a terminal 
 
 ####First I recommend purging your current Java set up if you have one
@@ -21,7 +21,7 @@ $ sudo apt-get install git-core gnupg flex bison gperf build-essential \
 ```
 #####and some more since then
 ```
-$ sudo apt-get install build-essential curl flex git gnupg gperf libesd0-dev liblz4-tool libncurses5-dev libsdl1.2-dev libwxgtk2.8-dev libxml2 libxml2-utils lzop pngcrush schedtool squashfs-tools xsltproc zip zlib1g-dev g++-multilib lib32ncurses5-dev lib32readline-gplv2-dev lib32z1-dev androidsdk-uiautomatorviewer android-copyright android-src-vendor android-emulator android-tools-adb android-headers android-tools-adbd androidsdk-ddms  android-tools-fastboot androidsdk-hierarchyviewer android-tools-fsutils androidsdk-traceview gcc-arm-linux-androideabi gcc-i686-linux-android android-copyright abootimg android-headers android-src-vendor android-tools-fsutils android-tools-adbd aapt gradle; 
+$ sudo apt-get install build-essential curl flex git gnupg gperf libesd0-dev liblz4-tool libncurses5-dev libsdl1.2-dev libwxgtk2.8-dev libxml2 libxml2-utils lzop pngcrush schedtool squashfs-tools xsltproc zip zlib1g-dev g++-multilib lib32ncurses5-dev lib32readline-gplv2-dev lib32z1-dev androidsdk-uiautomatorviewer android-copyright android-src-vendor android-emulator android-tools-adb android-headers android-tools-adbd androidsdk-ddms  android-tools-fastboot androidsdk-hierarchyviewer android-tools-fsutils androidsdk-traceview gcc-arm-linux-androideabi gcc-i686-linux-android android-copyright abootimg android-headers android-src-vendor android-tools-fsutils android-tools-adbd aapt gradle maven; 
 ```
 ####If you have issues running apt-get, try aptitude;
 ```
