@@ -1,7 +1,7 @@
 RosettaBuild
 ============
 ####Android Build Environment:
-####This guide will help you set up an Ubuntu 15.10/16.04 to build Android
+####This guide will help you set up Ubuntu 16.04 to build Android
 ##### Open a terminal 
 
 ####First I recommend purging your current Java set up if you have one
