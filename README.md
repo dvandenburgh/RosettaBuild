@@ -37,6 +37,19 @@ $ sudo curl --create-dirs -L -o /etc/udev/rules.d/51-android.rules -O -L https:/
 $ sudo chmod a+r /etc/udev/rules.d/51-android.rules; 
 $ sudo service udev restart
 ```
+### Now install any packages you still need from SDK
+###Google's repo tool 
+```
+$ mkdir ~/bin
+$ PATH=~/bin:$PATH
+$ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+$ chmod a+x ~/bin/repo
+$ echo "export ANDROID_HOME=/<installation location>/android-sdk-linux" >> ~/.bashrc
+$ echo "export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools" >> ~/.bashrc
+$ echo "export PATH=~/bin:$PATH" >> ~/.bashrc
+$ source ~/.bashrc
+```
+
 ####Set up your Android SDK 
 ```
 $ wget http://dl.google.com/android/android-sdk_r24.3.4-linux.tgz
@@ -45,17 +58,7 @@ $ tar -xvzf android-sdk_r24.1.2-linux.tgz
 $ cd ~/android-sdk-linux/tools
 $ ./andoid sdk
 ```
-### Now install any packages you still need from SDK
-###Google's repo tool 
-```
-$ mkdir ~/bin
-$ PATH=~/bin:$PATH
-$ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
-$ chmod a+x ~/bin/repo
-$ source ~/.bashrc
-$ echo "export PATH=~/bin:$PATH" >> ~/.bashrc
 
-```
 ### *OPTIONAL* set up ccache 
 ```
 $ sudo apt-get install ccache
