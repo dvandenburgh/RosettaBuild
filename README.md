@@ -44,10 +44,8 @@ $ mkdir ~/bin
 $ PATH=~/bin:$PATH
 $ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 $ chmod a+x ~/bin/repo
-$ echo "export ANDROID_HOME=/<installation location>/android-sdk-linux" >> ~/.bashrc
-$ echo "export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools" >> ~/.bashrc
-$ echo "export PATH=~/bin:$PATH" >> ~/.bashrc
 $ source ~/.bashrc
+$ echo "export PATH=~/bin:$PATH" >> ~/.bashrc
 ```
 
 ####Set up your Android SDK 
