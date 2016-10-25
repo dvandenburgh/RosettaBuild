@@ -1,7 +1,7 @@
 RosettaBuild
 ============
 ####Android Build Environment:
-####This guide will help you set up Ubuntu 16.04 to build Android
+####This guide will help you set up Ubuntu 16.04/10 to build Android
 ##### Open a terminal 
 
 ####First I recommend purging your current Java set up if you have one
@@ -65,6 +65,12 @@ $ ./andoid sdk
 $ sudo apt-get install ccache
 $ echo "export USE_CCACHE=1" >> ~/.bashrc
 ```
+
+### *OPTIONAL* Toolchain dependencies 
+```
+$ sudo aptitude install flex bison ncurses-dev texinfo gcc gperf patch libtool automake g++ libncurses5-dev gawk subversion expat libexpat1-dev python-all-dev libgcc1:i386 bc libcloog-isl-dev libcap-dev autoconf libgmp-dev build-essential gcc-multilib g++-multilib pkg-config libmpc-dev libmpfr-dev linaro-image-tools linaro-boot-utils
+```
+
 ### OPTIONAL install Android Studio 
 (Link is good as of 10/10 if not goto https://developer.android.com/sdk/index.html#Other download Android Studio for Linux)
 ```
