@@ -10,9 +10,15 @@ $ sudo apt purge openjdk-\* icedtea-\* icedtea6-\* oracle*
 ```
 Installing the JDK
 ```
+Ubuntu 16.04
 (Marshmallow and below)
+
+$ sudo add-apt-repository ppa:openjdk-r/ppa  
+$ sudo apt-get update  
 $ sudo apt-get install openjdk-7-jdk
-(Nougat)
+
+(Nougat) No need for PPA, openjdk-7 is not availible on 16.10 so just roll with
+
 $ sudo apt-get install openjdk-8-jdk
 ```
 ####Google's packagaes since Ubuntu 14.04
