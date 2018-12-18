@@ -39,7 +39,7 @@ $ sudo apt install aptitude
 ```
 ####and then try 
 ```
-$ sudo aptitude install build-essential curl flex git gnupg gperf libesd0-dev liblz4-tool libncurses5-dev libsdl1.2-dev libwxgtk2.8-dev libxml2 libxml2-utils lzop pngcrush schedtool squashfs-tools xsltproc zip zlib1g-dev g++-multilib lib32ncurses5-dev lib32readline-gplv2-dev lib32z1-dev androidsdk-uiautomatorviewer android-copyright android-src-vendor android-emulator android-tools-adb android-headers android-tools-adbd androidsdk-ddms  android-tools-fastboot androidsdk-hierarchyviewer android-tools-fsutils androidsdk-traceview gcc-arm-linux-androideabi gcc-i686-linux-android android-copyright abootimg android-headers android-src-vendor android-tools-fsutils android-tools-adbd aapt gradle maven apktool;
+$ sudo aptitude install build-essential curl flex git gnupg gperf liblz4-tool libncurses5-dev libsdl1.2-dev libxml2 libxml2-utils lzop pngcrush schedtool squashfs-tools xsltproc zip zlib1g-dev g++-multilib lib32ncurses5-dev lib32z1-dev android-src-vendor android-tools-adb android-headers android-tools-adbd android-tools-fastboot android-tools-fsutils abootimg android-headers android-src-vendor android-tools-fsutils android-tools-adbd aapt gradle maven apktool;
 ```
 #### 51-android rules for usb
 ```
@@ -77,13 +77,3 @@ $ echo "export USE_CCACHE=1" >> ~/.bashrc
 ```
 $ sudo aptitude install flex bison ncurses-dev texinfo gcc gperf patch libtool automake g++ libncurses5-dev gawk subversion expat libexpat1-dev python-all-dev libgcc1:i386 bc libcloog-isl-dev libcap-dev autoconf libgmp-dev build-essential gcc-multilib g++-multilib pkg-config libmpc-dev libmpfr-dev linaro-image-tools linaro-boot-utils
 ```
-
-### OPTIONAL install Android Studio 
-(Link is good as of 10/10 if not goto https://developer.android.com/sdk/index.html#Other download Android Studio for Linux)
-```
-$ wget https://dl.google.com/dl/android/studio/ide-zips/1.4.0.10/android-studio-ide-141.2288178-linux.zip
-$ unzip android-studio-ide-141.2178183-linux.zip
-$ cd android-studio/bin
-$ ./studio.sh
-```
-### Reboot cause you're good to go repo will work after it to start syncing 
