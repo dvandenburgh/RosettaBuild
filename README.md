@@ -56,6 +56,7 @@ $ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 $ chmod a+x ~/bin/repo
 $ source ~/.bashrc
 $ echo "export PATH=~/bin:$PATH" >> ~/.bashrc
+$ echo "export CCACHE_EXEC=/usr/bin/ccache" >> ~/.bashrc
 ```
 
 ####Set up your Android SDK 
